@@ -17,11 +17,13 @@
 }
 
 .nav-logo {
-  height: 40px;
-  width: 40 px;
+  height: 60px;
+  width: 40px;
 }
 
-
+.navbarrr {
+  margin-bottom: 0;
+}
 
 
 
