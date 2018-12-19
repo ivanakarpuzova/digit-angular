@@ -1,0 +1,150 @@
+/* .white {
+    background: darkgray;
+}
+
+
+
+.x-button {
+    float: right;
+    background: transparent;
+    margin-top: 15%;
+}
+
+.cityImage {
+    float: left;
+    margin-bottom: 10%;
+    height: 100%;
+    width: 100%;
+    min-width: 50px;
+    min-height: 70px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.gray {
+    background: darkgray;
+}
+
+.cityName {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.tdCityName {
+    width: 40%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.black {
+    color: black;
+}
+
+.resLink :hover {
+    color: blue;
+}
+
+.cities-btn {
+    float: right;
+    margin-bottom: 10px;
+    
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: darkgray;
+}
+
+
+.btn{
+    width: 100%;
+    
+}
+
+.centered {
+    position: center;
+} */
+
+
+/* .card {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .card {
+    display: flex;
+    flex-direction: row;
+    /* display: block; }*/
+ 
+ 
+ /* .card {
+    width: 33%;
+    display: block;
+
+ } */
+/* 
+ .card {
+    max-width: 50%;
+    margin-left: 37%;
+ }
+
+ .small-items{
+     max-width:80px;
+     max-height: 120px;
+ }
+
+ .gray {
+     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.centar {
+    align-items: center;
+}
+
+.row {
+    width: 33%;
+    display: block;
+} */
+
+/* 
+.homeParent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.homeTile {
+    width: 33%;
+}
+*/
+
+.small-items{
+    width: 100%;
+    height: 60%;
+    float: center;
+} 
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+mat-card{
+    width: 20%;
+    margin-top: 100px;
+    margin-bottom:100px;
+    height:70%;
+}
+
+
+.homebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

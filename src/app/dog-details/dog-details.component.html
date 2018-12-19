@@ -1,0 +1,20 @@
+<h2 mat-dialog-title>Details for dog {{dog.id}}</h2>
+<mat-dialog-content class="mat-typography">
+  <div>
+    <h3>Status: {{dog.status}}</h3>  
+    <h3>Code: {{dog.code}} </h3> 
+    <h3>Size: {{dog.size}}</h3>
+    <h3>Gender: {{dog.gender}}</h3>
+    <h3>Location: {{dog.location}}</h3>
+    <h3>Breed: {{dog.breed}}</h3>
+    
+    <img src="{{dog.imageUrl}}" class="img-responsive">
+
+  </div>
+  
+  
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+<!--<button mat-button [mat-dialog-close]="true" cdkFocusInitial>Install</button>-->
+</mat-dialog-actions>

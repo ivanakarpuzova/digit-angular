@@ -1,0 +1,49 @@
+<div class="container">
+  <form [formGroup]="reportForm" (ngSubmit)="reportDog()" style="width: 500px">
+    <div class="form-group">
+      <label for="formGroupExampleInput"> Status  </label>
+      <input type="text" class="form-control" formControlName="status" id="status" placeholder="Adopted or Homeless">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Code</label>
+      <input type="text" class="form-control" formControlName="code" id="code" placeholder="Code">
+    </div>
+
+    <div class="form-group">
+        <label for="formGroupExampleInput2">Size</label>
+        <input type="text" class="form-control" formControlName="size" id="size" placeholder="Small or big">
+      </div>
+
+      <div class="form-group">
+          <label for="formGroupExampleInput2">Gender</label>
+          <input type="text" class="form-control" formControlName="gender" id="gender" placeholder="Male or Female">
+        </div>
+
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Location</label>
+            <input type="text" class="form-control" formControlName="location" id="location" placeholder="Location">
+          </div>
+
+          <div class="form-group">
+              <label for="formGroupExampleInput2">Breed</label>
+              <input type="text" class="form-control" formControlName="breed" id="breed" placeholder="Breed">
+            </div>
+
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Description</label>
+                <input type="text" class="form-control" formControlName="description" id="description" placeholder="Description">
+              </div>
+
+              <div class="form-group">
+                  <label for="formGroupExampleInput2">Image</label>
+                  <input type="text" class="form-control" formControlName="image" id="image" placeholder="Your image link">
+                </div>
+
+                <button type="submit" class="btn btn-success" >REPORT</button>
+                <button type="button" class="btn btn-danger" [routerLink]="['/home']">CANCEL</button>
+  </form>
+
+
+ </div>
+
+

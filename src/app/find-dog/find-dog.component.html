@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h2>List of dogs</h2>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Size</th>
+                            <th>Gender</th>
+                            <th>Location</th>
+                            <th>See more</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let dog of dogs">
+                            <td> {{dog.status}}</td>
+                            <td> {{dog.size}}</td>
+                            <td> {{dog.gender}}</td>
+                            <td> {{dog.location}}</td>
+                            <td>
+                                <button class="btn btn-primary" (click)="seeMore(dog)">Details </button>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>

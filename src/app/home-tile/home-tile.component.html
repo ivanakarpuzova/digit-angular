@@ -1,0 +1,63 @@
+<!-- <div class="homeParent small-items">
+
+  <div class="row homeTile ">
+    <div class="card">
+      <img class="card-img-top small-items" src="https://img.icons8.com/metro/1600/search.png" alt="Card  cap">
+      <div class="card-body" style="max-width:50%">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Find</a>
+      </div>
+    </div>
+ </div>
+    <div class="row homeTile ">
+
+      <div class="card">
+        <img class="card-img-top" src="../../images/dog-breed-pitbull.jpg" alt="Card image ">
+        <div class="card-body" style="max-width:50%">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Adopt</a>
+        </div>
+      </div>
+ </div>
+      <div class="row homeTile ">
+        <div class="row">
+          <div class="card">
+            <img class="card-img-top" src="../../images/dog-breed-pitbull.jpg" alt="image cap">
+            <div class="card-body" style="max-width:50%">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a href="#" class="btn btn-primary">Report</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+<div class=container>
+  <mat-card>
+    <mat-card-title>
+        <div class="homebtn"> <button mat-raised-button color="warn" (click)="find()" >FIND!</button> </div>
+    </mat-card-title>
+    <img class="small-items img-responsive" src="https://img.icons8.com/metro/1600/search.png" alt="Card">
+    
+  </mat-card>
+
+  <mat-card>
+      <mat-card-title>
+          <div class="homebtn"> <button mat-raised-button color="warn" [routerLink]="['/find']">ADOPT!</button> </div>
+        </mat-card-title>
+        <img class="small-items" src="https://logopond.com/logos/84c3fb9e235a97afd50b0ea0fa798c77.png" alt="Card">
+  </mat-card>
+
+  <mat-card>
+      <mat-card-title>
+         <div class="homebtn"> <button mat-raised-button color="warn" [routerLink]="['/report']" >REPORT!</button> </div>
+        </mat-card-title>
+        <img class="small-items" src="https://www.ashford.gov.uk/media/2445/report-it-stamp.png" alt="Card">
+  </mat-card>
+</div>
