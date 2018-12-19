@@ -1,10 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<mat-toolbar color='primary' style='navbarr'>
+<mat-toolbar color='primary' > 
+  <!-- class='navbarr' -->
     <img src="../favicon.ico" class="nav-logo">
     <button mat-raised-button color="accent" class="nav-button" [routerLink]="['/home']">Home</button>
     <button mat-raised-button color="accent" class="nav-button">About</button>
-    <button mat-raised-button color="accent" class="nav-button">Contact Us</button>
+    <button mat-raised-button color="accent" class="nav-button" [routerLink]="['/contact']" >Contact Us</button>
 </mat-toolbar>
 
 <router-outlet></router-outlet>

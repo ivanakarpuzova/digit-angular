@@ -17,6 +17,7 @@ import { DogDetailsComponent } from './dog-details/dog-details.component';
 import { ReportComponent } from './report/report.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FooterComponent } from './footer/footer.component';
     DogTileComponent,
     DogDetailsComponent,
     ReportComponent,
-    FooterComponent
+    FooterComponent,
+    ContactUsComponent
   ],
   entryComponents: [
     //za poopup dialogot mora vie entryComponents da se dodadat
