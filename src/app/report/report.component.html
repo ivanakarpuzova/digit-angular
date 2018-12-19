@@ -1,8 +1,13 @@
 <div class="container">
+<div class="card">
   <form [formGroup]="reportForm" (ngSubmit)="reportDog()" style="width: 500px">
     <div class="form-group">
       <label for="formGroupExampleInput"> Status  </label>
-      <input type="text" class="form-control" formControlName="status" id="status" placeholder="Adopted or Homeless">
+      <br>
+      <input type="radio" name="status" formControlName="status" [value]="Status.homeless"> Homeless<br>
+      <input type="radio" name="status" formControlName="status" [value]="Status.adopted"> Adopted<br>
+      
+      <!-- <input type="text" class="form-control" formControlName="status" id="status" placeholder="Adopted or Homeless"> -->
     </div>
     <div class="form-group">
       <label for="formGroupExampleInput2">Code</label>
@@ -15,8 +20,11 @@
       </div>
 
       <div class="form-group">
-          <label for="formGroupExampleInput2">Gender</label>
-          <input type="text" class="form-control" formControlName="gender" id="gender" placeholder="Male or Female">
+          <label for="formGroupExampleInput2">Gender</label> <br>
+          <input type="radio" formControlName="gender" [value]="Gender.male"> Male <br>
+          <input type="radio" formControlName="gender" [value]="Gender.female"> Female <br>
+          
+          <!-- <input type="text" class="form-control" formControlName="gender" id="gender" placeholder="Male or Female"> -->
         </div>
 
         <div class="form-group">
@@ -44,6 +52,7 @@
   </form>
 
 
+ </div>
  </div>
 
 
