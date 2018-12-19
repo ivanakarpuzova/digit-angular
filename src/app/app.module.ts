@@ -16,6 +16,7 @@ import { MatDialogModule} from '@angular/material/dialog';
 import { DogDetailsComponent } from './dog-details/dog-details.component';
 import { ReportComponent } from './report/report.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FindDogComponent,
     DogTileComponent,
     DogDetailsComponent,
-    ReportComponent
+    ReportComponent,
+    FooterComponent
   ],
   entryComponents: [
     //za poopup dialogot mora vie entryComponents da se dodadat
